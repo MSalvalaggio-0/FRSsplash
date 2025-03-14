@@ -20,3 +20,13 @@ document.getElementById('contactForm').addEventListener('submit', async (event) 
         alert('Failed to send the message. Please try again later.');
     }
 });
+
+// Ensure the JavaScript does not interfere with layout adjustments on mobile
+document.addEventListener('DOMContentLoaded', () => {
+    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+    const mainNav = document.querySelector('.main-nav');
+
+    mobileMenuToggle.addEventListener('click', () => {
+        mainNav.classList.toggle('active');
+    });
+});
