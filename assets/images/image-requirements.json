@@ -1,0 +1,46 @@
+{
+  "logo": {
+    "filename": "logo.png",
+    "description": "FRS Automotive Solutions primary logo",
+    "dimensions": "200x50px",
+    "format": "PNG with transparency",
+    "colors": "Primary color: #0c2340 (navy blue), Accent: #c8102e (red)"
+  },
+  "logo-white": {
+    "filename": "logo-white.png",
+    "description": "White version of logo for dark backgrounds",
+    "dimensions": "200x50px",
+    "format": "PNG with transparency",
+    "colors": "White (#ffffff) on transparent background"
+  },
+  "hero-bg": {
+    "filename": "hero-bg.jpg",
+    "description": "Hero section background image showing premium vehicles/corporate automotive setting",
+    "dimensions": "1920x1080px",
+    "format": "JPG (80% quality, max 300KB)",
+    "style": "Professional dark-toned image of luxury vehicles or corporate automotive setting",
+    "notes": "Should work well with dark overlay gradient for text readability"
+  },
+  "expertise": {
+    "filename": "expertise.jpg",
+    "description": "Image representing company expertise",
+    "dimensions": "800x600px",
+    "format": "JPG (80% quality, max 150KB)",
+    "style": "Professional team in corporate setting working on automotive compliance/documentation"
+  },
+  "corporate-team": {
+    "filename": "corporate-team.jpg",
+    "description": "Team photo for about section",
+    "dimensions": "800x600px",
+    "format": "JPG (80% quality, max 150KB)",
+    "style": "Professional group photo of management team in business attire"
+  },
+  "service-bg": {
+    "filename": "service-bg.jpg",
+    "description": "Subtle background for services section",
+    "dimensions": "1920x1080px",
+    "format": "JPG (75% quality, max 200KB)",
+    "style": "Light, abstract pattern or automotive-related imagery",
+    "notes": "Used with low opacity (3%), should be very subtle"
+  }
+}
