@@ -305,7 +305,7 @@ img {
         /* Change from fixed to scroll for better mobile visibility */
         background-attachment: scroll;
         /* Ensure the image scales appropriately */
-        background-size: contain;
+        background-size: cover;
         /* Adjust position to see the most important part of the image */
         background-position: center top;
         /* Add a background color as fallback */
