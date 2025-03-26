@@ -630,7 +630,7 @@ img {
 }
 
 .contact-wrapper {
-    display: grid;
+    display: block;
     grid-template-columns: 1fr 1.5fr;
     gap: 50px;
     position: relative;
@@ -1145,4 +1145,18 @@ img {
 /* Update button text on contact form */
 #contactForm .btn-primary {
     background-color: var(--accent);
+}
+
+/* Add trademark footer styles */
+.trademark-footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+    border-top: 1px solid var(--light-gray);
+}
+
+.trademark-footer p {
+    color: var(--gray);
+    font-size: 0.85rem;
+    margin-bottom: 0;
 }
