@@ -11,15 +11,15 @@
 }
 
 :root {
-    /* Corporate Color Palette */
-    --primary: #0c2340;      /* Deep Navy Blue */
-    --secondary: #1e5091;    /* Medium Blue */
-    --accent: #c8102e;       /* Dynamic Red */
+    /* Corporate Color Palette - Updated */
+    --primary: #2b3990;      /* Dark Blue - previously #0c2340 */
+    --secondary: #00a79d;    /* Teal - previously #1e5091 */
+    --accent: #00a79d;       /* Using teal as accent - previously #c8102e */
     --light: #f8f9fa;       /* Off White */
     --dark: #212529;        /* Near Black */
     --gray: #6c757d;        /* Medium Gray */
     --light-gray: #e9ecef;  /* Light Gray */
-    --success: #28a745;     /* Confirmation Green */
+    --success: #00a79d;     /* Success now matches secondary/teal - previously #28a745 */
     
     /* Typography */
     --heading-font: 'Montserrat', sans-serif;
@@ -116,13 +116,13 @@ img {
     color: white;
     border: none;
     font-weight: 600;
-    box-shadow: 0 4px 15px rgba(200, 16, 46, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 167, 157, 0.2); /* Updated shadow color */
 }
 
 .btn-primary:hover {
-    background-color: #a70d26;
+    background-color: #008c83; /* Darker teal for hover state - previously #a70d26 */
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(200, 16, 46, 0.3);
+    box-shadow: 0 6px 20px rgba(0, 167, 157, 0.3); /* Updated shadow color */
 }
 
 .btn-secondary {
@@ -280,7 +280,7 @@ img {
 }
 
 .main-nav .btn-primary:hover {
-    background-color: #a70d26;
+    background-color: #008c83;
     transform: translateY(-2px);
 }
 
@@ -405,7 +405,7 @@ img {
     align-items: center;
     width: 80px;
     height: 80px;
-    background-color: rgba(30, 80, 145, 0.1);
+    background-color: rgba(0, 167, 157, 0.1); /* Updated color - previously rgba(30, 80, 145, 0.1) */
     border-radius: 50%;
     margin: 0 auto 25px;
 }
@@ -676,7 +676,7 @@ img {
 .contact-highlight {
     display: flex;
     align-items: center;
-    background-color: rgba(30, 80, 145, 0.08);
+    background-color: rgba(0, 167, 157, 0.08); /* Updated background - previously rgba(30, 80, 145, 0.08) */
     padding: 20px;
     border-radius: var(--radius);
     margin-bottom: 30px;
@@ -697,10 +697,6 @@ img {
     font-weight: 600;
     color: var(--accent);
     font-size: 1.05rem;
-}
-
-.contact-highlight a:hover {
-    text-decoration: underline;
 }
 
 .contact-guarantee {
@@ -785,7 +781,7 @@ img {
 .form-group textarea:focus {
     border-color: var(--secondary);
     outline: none;
-    box-shadow: 0 0 0 3px rgba(30, 80, 145, 0.1);
+    box-shadow: 0 0 0 3px rgba(0, 167, 157, 0.1); /* Updated shadow color - previously rgba(30, 80, 145, 0.1) */
 }
 
 .form-group textarea {
@@ -980,17 +976,6 @@ img {
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
-.form-cta-banner .form-title {
-    color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.form-cta-banner .form-subtitle {
-    color: rgba(255,255,255,0.8);
-    margin-bottom: 0;
-}
-
 /* Footer styles update */
 .footer-content {
     display: grid;
@@ -1126,7 +1111,7 @@ img {
     font-weight: 700;
     font-size: 1.2rem;
     letter-spacing: 0.5px;
-    box-shadow: 0 4px 15px rgba(200, 16, 46, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 167, 157, 0.3); /* Updated shadow - previously rgba(200, 16, 46, 0.3) */
     animation: pulse 2s infinite;
     transform-origin: center;
 }
